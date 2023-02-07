@@ -1,0 +1,55 @@
+body{
+    background-color: rgba(244, 115, 167, 0.804);
+    
+}
+h2{
+    color: blueviolet;
+    font-size: 50px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(96, 237, 103);
+    border-radius: 18px;
+    width: 40%;
+    margin: auto;
+    margin-top: 40px;
+}
+p{
+    color:black;
+    size: 19px;
+    text-align: center;
+    padding: 20px;
+}
+#joke-btn{
+    align-items: flex-start;
+    display: flex;
+    margin: auto;
+    color:rgb(238, 255, 253);
+    border-style: none;
+    border-radius: 5px  ;
+    background-color:rgb(206, 216, 0);
+    cursor: pointer;
+    font-size: 22px;
+}
+#joke{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(98, 3, 127);
+    font-size: 25px;
+    background-color: coral;
+}
+.joke-main{
+    background-color: blanchedalmond;
+    height:450px;
+    border-radius: 10px;
+}
+@media only screen and (max-width:580px){
+    body{
+        background-image: url(./componenets/funny.avif);
+    }
+    h2{
+        width: auto;
+        margin: auto;
+    }
+    .joke-main{
+        margin-top: 80px;
+    }
+}
